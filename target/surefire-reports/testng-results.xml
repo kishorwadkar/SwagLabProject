@@ -1,37 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="8" total="25" passed="17" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-28T15:48:31 IST" name="Suite" finished-at="2023-06-28T15:48:32 IST" duration-ms="439">
+  <suite started-at="2023-06-28T19:43:52 IST" name="Suite" finished-at="2023-06-28T19:43:55 IST" duration-ms="3731">
     <groups>
     </groups>
-    <test started-at="2023-06-28T15:48:31 IST" name="Test" finished-at="2023-06-28T15:48:32 IST" duration-ms="439">
-      <class name="com.qa.tests.LoginPageTest">
-        <test-method is-config="true" signature="initbrowser()[pri:0, instance:com.qa.tests.LoginPageTest@36d585c]" started-at="2023-06-28T15:48:28 IST" name="initbrowser" finished-at="2023-06-28T15:48:31 IST" duration-ms="2762" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initbrowser -->
-        <test-method is-config="true" signature="objectCretion()[pri:0, instance:com.qa.tests.LoginPageTest@36d585c]" started-at="2023-06-28T15:48:31 IST" name="objectCretion" finished-at="2023-06-28T15:48:31 IST" duration-ms="38" status="PASS">
+    <test started-at="2023-06-28T19:43:52 IST" name="Test" finished-at="2023-06-28T19:43:55 IST" duration-ms="3731">
+      <class name="com.qa.tests.YourCartPageTest">
+        <test-method is-config="true" signature="objectCretion()[pri:0, instance:com.qa.tests.YourCartPageTest@7e9131d5]" started-at="2023-06-28T19:43:52 IST" name="objectCretion" finished-at="2023-06-28T19:43:52 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objectCretion -->
-        <test-method signature="validateTitle()[pri:1, instance:com.qa.tests.LoginPageTest@36d585c]" started-at="2023-06-28T15:48:31 IST" name="validateTitle" finished-at="2023-06-28T15:48:31 IST" duration-ms="18" status="PASS">
+        <test-method signature="validateTitle()[pri:10, instance:com.qa.tests.YourCartPageTest@7e9131d5]" started-at="2023-06-28T19:43:52 IST" name="validateTitle" finished-at="2023-06-28T19:43:52 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitle -->
-        <test-method signature="validateUsername()[pri:2, instance:com.qa.tests.LoginPageTest@36d585c]" started-at="2023-06-28T15:48:31 IST" name="validateUsername" finished-at="2023-06-28T15:48:31 IST" duration-ms="131" status="PASS">
+        <test-method signature="validateYourCartPage()[pri:11, instance:com.qa.tests.YourCartPageTest@7e9131d5]" started-at="2023-06-28T19:43:52 IST" name="validateYourCartPage" finished-at="2023-06-28T19:43:52 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateYourCartPage -->
+      </class> <!-- com.qa.tests.YourCartPageTest -->
+      <class name="com.qa.tests.ProductPageTest">
+        <test-method is-config="true" signature="objectCretion()[pri:0, instance:com.qa.tests.ProductPageTest@2cdd0d4b]" started-at="2023-06-28T19:43:52 IST" name="objectCretion" finished-at="2023-06-28T19:43:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectCretion -->
+        <test-method signature="validateTshirt()[pri:5, instance:com.qa.tests.ProductPageTest@2cdd0d4b]" started-at="2023-06-28T19:43:52 IST" name="validateTshirt" finished-at="2023-06-28T19:43:52 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTshirt -->
+        <test-method signature="validateAddToCartTShirt()[pri:6, instance:com.qa.tests.ProductPageTest@2cdd0d4b]" started-at="2023-06-28T19:43:52 IST" name="validateAddToCartTShirt" finished-at="2023-06-28T19:43:52 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddToCartTShirt -->
+        <test-method signature="validatefleeceJacket()[pri:7, instance:com.qa.tests.ProductPageTest@2cdd0d4b]" started-at="2023-06-28T19:43:52 IST" name="validatefleeceJacket" finished-at="2023-06-28T19:43:52 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefleeceJacket -->
+        <test-method signature="validateAddToCartfleeceJacket()[pri:8, instance:com.qa.tests.ProductPageTest@2cdd0d4b]" started-at="2023-06-28T19:43:52 IST" name="validateAddToCartfleeceJacket" finished-at="2023-06-28T19:43:52 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddToCartfleeceJacket -->
+        <test-method signature="validatShoppingCartFunctionality()[pri:9, instance:com.qa.tests.ProductPageTest@2cdd0d4b]" started-at="2023-06-28T19:43:52 IST" name="validatShoppingCartFunctionality" finished-at="2023-06-28T19:43:52 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatShoppingCartFunctionality -->
+      </class> <!-- com.qa.tests.ProductPageTest -->
+      <class name="com.qa.tests.YourInformationPagetest">
+        <test-method is-config="true" signature="objectCretion()[pri:0, instance:com.qa.tests.YourInformationPagetest@2e1d27ba]" started-at="2023-06-28T19:43:53 IST" name="objectCretion" finished-at="2023-06-28T19:43:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectCretion -->
+        <test-method signature="validateFirstname()[pri:12, instance:com.qa.tests.YourInformationPagetest@2e1d27ba]" started-at="2023-06-28T19:43:53 IST" name="validateFirstname" finished-at="2023-06-28T19:43:53 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFirstname -->
+        <test-method signature="validateLastName()[pri:13, instance:com.qa.tests.YourInformationPagetest@2e1d27ba]" started-at="2023-06-28T19:43:53 IST" name="validateLastName" finished-at="2023-06-28T19:43:53 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLastName -->
+        <test-method signature="validatePostalCode()[pri:14, instance:com.qa.tests.YourInformationPagetest@2e1d27ba]" started-at="2023-06-28T19:43:53 IST" name="validatePostalCode" finished-at="2023-06-28T19:43:53 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostalCode -->
+        <test-method signature="validateContinueButton()[pri:15, instance:com.qa.tests.YourInformationPagetest@2e1d27ba]" started-at="2023-06-28T19:43:53 IST" name="validateContinueButton" finished-at="2023-06-28T19:43:55 IST" duration-ms="2114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContinueButton -->
+      </class> <!-- com.qa.tests.YourInformationPagetest -->
+      <class name="com.qa.tests.OverViewPageText">
+        <test-method is-config="true" signature="objectCretion()[pri:0, instance:com.qa.tests.OverViewPageText@61d6015a]" started-at="2023-06-28T19:43:55 IST" name="objectCretion" finished-at="2023-06-28T19:43:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectCretion -->
+        <test-method signature="validateTotalPrice()[pri:16, instance:com.qa.tests.OverViewPageText@61d6015a]" started-at="2023-06-28T19:43:55 IST" name="validateTotalPrice" finished-at="2023-06-28T19:43:55 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTotalPrice -->
+        <test-method signature="validateFinishButton()[pri:17, instance:com.qa.tests.OverViewPageText@61d6015a]" started-at="2023-06-28T19:43:55 IST" name="validateFinishButton" finished-at="2023-06-28T19:43:55 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFinishButton -->
+      </class> <!-- com.qa.tests.OverViewPageText -->
+      <class name="com.qa.tests.LoginPageTest">
+        <test-method is-config="true" signature="initbrowser()[pri:0, instance:com.qa.tests.LoginPageTest@4a668b6e]" started-at="2023-06-28T19:43:48 IST" name="initbrowser" finished-at="2023-06-28T19:43:52 IST" duration-ms="3167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initbrowser -->
+        <test-method is-config="true" signature="objectCretion()[pri:0, instance:com.qa.tests.LoginPageTest@4a668b6e]" started-at="2023-06-28T19:43:52 IST" name="objectCretion" finished-at="2023-06-28T19:43:52 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectCretion -->
+        <test-method signature="validateTitle()[pri:1, instance:com.qa.tests.LoginPageTest@4a668b6e]" started-at="2023-06-28T19:43:52 IST" name="validateTitle" finished-at="2023-06-28T19:43:52 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method signature="validateUsername()[pri:2, instance:com.qa.tests.LoginPageTest@4a668b6e]" started-at="2023-06-28T19:43:52 IST" name="validateUsername" finished-at="2023-06-28T19:43:52 IST" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUsername -->
-        <test-method signature="validatePassword()[pri:3, instance:com.qa.tests.LoginPageTest@36d585c]" started-at="2023-06-28T15:48:31 IST" name="validatePassword" finished-at="2023-06-28T15:48:31 IST" duration-ms="82" status="PASS">
+        <test-method signature="validatePassword()[pri:3, instance:com.qa.tests.LoginPageTest@4a668b6e]" started-at="2023-06-28T19:43:52 IST" name="validatePassword" finished-at="2023-06-28T19:43:52 IST" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePassword -->
-        <test-method signature="validateLoginButton()[pri:4, instance:com.qa.tests.LoginPageTest@36d585c]" started-at="2023-06-28T15:48:31 IST" name="validateLoginButton" finished-at="2023-06-28T15:48:32 IST" duration-ms="88" status="PASS">
+        <test-method signature="validateLoginButton()[pri:4, instance:com.qa.tests.LoginPageTest@4a668b6e]" started-at="2023-06-28T19:43:52 IST" name="validateLoginButton" finished-at="2023-06-28T19:43:52 IST" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginButton -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.tests.LoginPageTest@36d585c]" started-at="2023-06-28T15:48:32 IST" name="teardown" finished-at="2023-06-28T15:48:32 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.tests.LoginPageTest@4a668b6e]" started-at="2023-06-28T19:43:56 IST" name="teardown" finished-at="2023-06-28T19:43:56 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

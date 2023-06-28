@@ -7,6 +7,11 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.qa.tests.LoginPageTest"/>
+      <class name="com.qa.tests.ProductPageTest"/>
+      <class name="com.qa.tests.YourCartPageTest"/>
+       <class name="com.qa.tests.YourInformationPagetest"/>
+        <class name="com.qa.tests.OverViewPageText"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

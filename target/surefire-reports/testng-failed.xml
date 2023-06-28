@@ -6,17 +6,14 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="com.qa.tests.LoginPageTest">
+      <class name="com.qa.tests.OverViewPageText">
         <methods>
           <include name="objectCretion"/>
-          <include name="validateTitle"/>
-          <include name="validatePassword"/>
-          <include name="validateUsername"/>
+          <include name="validateTotalPrice"/>
           <include name="initbrowser"/>
-          <include name="validateLoginButton"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.qa.tests.LoginPageTest -->
+      </class> <!-- com.qa.tests.OverViewPageText -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

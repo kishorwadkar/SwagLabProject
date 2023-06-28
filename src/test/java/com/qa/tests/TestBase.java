@@ -10,12 +10,20 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
 import com.qa.pages.Loginpage;
+import com.qa.pages.OverViewPage;
+import com.qa.pages.ProductPage;
+import com.qa.pages.YourCartPage;
+import com.qa.pages.YourInformationPage;
 import com.qa.utilities.ReadConfig;
 
 public class TestBase 
 {
 	public Loginpage loginpage;
-	ReadConfig read;
+	public ReadConfig read;
+	public ProductPage productpage;
+	public  YourCartPage yourcartpage;
+	public YourInformationPage yourinformationpage;
+	public OverViewPage overviewpage;
 	public static WebDriver driver;
 	@BeforeSuite
 	public void initbrowser() throws IOException
@@ -45,7 +53,11 @@ public class TestBase
 	@BeforeClass
 	public void objectCretion()
 	{
-		 loginpage=new Loginpage(driver);
+		 loginpage = new Loginpage(driver);
+		 productpage = new ProductPage(driver);
+		 yourcartpage = new YourCartPage(driver);
+		 yourinformationpage=new YourInformationPage(driver); 
+		 overviewpage= new  OverViewPage(driver);
 	}
 	
 	@AfterSuite
