@@ -39,6 +39,7 @@ public class OverViewPageText extends TestBase
 	public void validateFinishButton()
 	{
 		overviewpage.clickOnFinishButton();
+		System.out.println("this is end of the Project");
 	}
 
 }
